@@ -1,6 +1,6 @@
 import 'dart:io';
 
-void prime() {
+void primee() {
   int flag=0;
   print("enter the intervals");
   int low = int.parse(stdin.readLineSync()!);

@@ -9,5 +9,5 @@ import 'newfilepractie.dart';
 
 void main() {
   // primenumber();
-  prime();
+  primee();
 }
