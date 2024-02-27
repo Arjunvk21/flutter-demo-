@@ -10,7 +10,7 @@ void primenumber() {
   while (original != 0) {
     remainder = original % 10;
     result = result + remainder * remainder * remainder;
-    original /= 10;
+    original ~/= 10;
   }
   if (result == num) {
     print("$num is an amstrong");

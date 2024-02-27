@@ -17,7 +17,7 @@ void prime() {
   }
   if(flag==0){
     print(low);
-  ++low;
+    ++low;
   }
 
 }
