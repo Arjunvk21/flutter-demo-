@@ -2,7 +2,7 @@ import 'dart:ffi';
 import 'dart:io';
 import 'dart:math';
 
-void primenumber() {
+void Amstrong() {
   int result = 0, remainder, original;
   print("enter the number");
   int num = int.parse(stdin.readLineSync()!);
