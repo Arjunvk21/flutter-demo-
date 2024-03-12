@@ -84,12 +84,69 @@ void main() {
   // largestnumber();
   // Person p = Person();
   // p.printdetails();
-  Rectangle r = Rectangle();
-  r.inputvalues();
-  print("Area of rectangle is ${r.rectarea()}");
-  print("Perimeter of retangle is ${r.rectperimeter()}");
+  // Rectangle r = Rectangle();
+  // r.inputvalues();
+  // print("Area of rectangle is ${r.rectarea()}");
+  // print("Perimeter of retangle is ${r.rectperimeter()}");
+
   // Solution s = Solution();
   // print(s.twoSum([2, 4, 5, 6], 9));
+
+  // solution s = solution();
+  // print("length of last word is ${s.lemghtofword()}");
+  // solution2 s2 = solution2();
+  // print(s2.listoncevalue());
+  // solution3 s3 = solution3();
+  // print(s3.duplicates());
+  // rollsroyce rr = rollsroyce(12,22);
+  // print(rr.emblomfunto());
+  // rr.move();
+  // print("doors are ${rr.door}");
+
+  laptop l1 = laptop();
+  l1.id = 01;
+  l1.price = 60000;
+  l1.ram = "8GB";
+  print("details of laptop 1");
+  print("id= ${l1.id}");
+  print("price= ${l1.price}");
+  print("RAM= ${l1.ram}");
+
+  laptop l2 = laptop();
+  l2.id = 02;
+  l2.price = 70000;
+  l2.ram = "8GB";
+  print("details of laptop 2");
+  print("id= ${l2.id}");
+  print("price= ${l2.price}");
+  print("RAM= ${l2.ram}");
+
+  laptop l3 = laptop();
+  l3.id = 03;
+  l3.price = 900000;
+  l3.ram = "16GB";
+  print("details of laptop 3");
+  print("id= ${l3.id}");
+  print("price= ${l3.price}");
+  print("RAM= ${l3.ram}");
+
+  // House h = House(001, "h01", 1200000);
+  // House h1 = House(002, "h02", 230000);
+  // House h2 = House(003, "ho3", 450000);
+
+  // Car c1 = Car();
+  // c1.company = "Tata";
+  // c1.model = "altroz ev";
+  // c1.year = 2023;
+  // c1.displayinfo();
+  // print("Car doors are =${c1.numDoors}");
+
+  // Truck t1 = Truck();
+  // t1.company = 'BharathBenz';
+  // t1.model = 'b1v12';
+  // t1.year = 2019;
+  // t1.displayinfo();
+  // print("truck bedlength = ${t1.bedLength}");
 
   // try {
 
