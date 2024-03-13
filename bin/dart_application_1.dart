@@ -103,32 +103,32 @@ void main() {
   // rr.move();
   // print("doors are ${rr.door}");
 
-  laptop l1 = laptop();
-  l1.id = 01;
-  l1.price = 60000;
-  l1.ram = "8GB";
-  print("details of laptop 1");
-  print("id= ${l1.id}");
-  print("price= ${l1.price}");
-  print("RAM= ${l1.ram}");
+  // laptop l1 = laptop();
+  // l1.id = 01;
+  // l1.price = 60000;
+  // l1.ram = "8GB";
+  // print("details of laptop 1");
+  // print("id= ${l1.id}");
+  // print("price= ${l1.price}");
+  // print("RAM= ${l1.ram}");
 
-  laptop l2 = laptop();
-  l2.id = 02;
-  l2.price = 70000;
-  l2.ram = "8GB";
-  print("details of laptop 2");
-  print("id= ${l2.id}");
-  print("price= ${l2.price}");
-  print("RAM= ${l2.ram}");
+  // laptop l2 = laptop();
+  // l2.id = 02;
+  // l2.price = 70000;
+  // l2.ram = "8GB";
+  // print("details of laptop 2");
+  // print("id= ${l2.id}");
+  // print("price= ${l2.price}");
+  // print("RAM= ${l2.ram}");
 
-  laptop l3 = laptop();
-  l3.id = 03;
-  l3.price = 900000;
-  l3.ram = "16GB";
-  print("details of laptop 3");
-  print("id= ${l3.id}");
-  print("price= ${l3.price}");
-  print("RAM= ${l3.ram}");
+  // laptop l3 = laptop();
+  // l3.id = 03;
+  // l3.price = 900000;
+  // l3.ram = "16GB";
+  // print("details of laptop 3");
+  // print("id= ${l3.id}");
+  // print("price= ${l3.price}");
+  // print("RAM= ${l3.ram}");
 
   // House h = House(001, "h01", 1200000);
   // House h1 = House(002, "h02", 230000);
@@ -156,4 +156,25 @@ void main() {
   // } on InvalidAbovePhonenumberException catch (_) {
   //   print("phone number lenght is greater than 10 digits");
   // }
+
+  // student s = student();
+  // s.setvalue("arjun", 24, 10);
+  // s.display();
+  // s.setvalue("jamsheela", 25, 33);
+  // s.display();
+
+  // BankAccount b = BankAccount(65456, "arjun");
+  // b.deposit();
+  // b.withdraw();
+  // b.getBalance();
+
+  // BankAccount b1 = BankAccount(565656, "jamsheela");
+  // b1.deposit();
+  // b.withdraw();
+  // b.getBalance();
+
+  rectangle r = rectangle();
+  print("Area of rectangle is ${r.calculateArea(12,6)}");
+  circle c = circle();
+  print("Area of circle is ${c.calculateArea(8,0)}");
 }

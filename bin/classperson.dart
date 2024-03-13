@@ -149,3 +149,75 @@ class Car extends vehicle {
 class Truck extends vehicle {
   String bedLength = "4.5 X 6.25 feet";
 }
+
+class student {
+  String? _name;
+  int? _age;
+  int? _rollnumber;
+
+  void display() {
+    print("name = $_name");
+    print("age =$_age");
+    print("rollnumber= $_rollnumber");
+  }
+
+  void setvalue(String n, int a, int r) {
+    _name = n;
+    _age = a;
+    _rollnumber = r;
+  }
+}
+
+class BankAccount {
+  int? accountNumber;
+  String? ownerName;
+  double _balance = 0;
+  double amount = 0;
+
+  BankAccount(int accountNumber, String ownerName) {
+    this.accountNumber = accountNumber;
+    this.ownerName = ownerName;
+    print("Account number= $accountNumber and Account holder= $ownerName");
+  }
+
+  void deposit() {
+    print("enter the amount to deposit");
+    amount = double.parse(stdin.readLineSync()!);
+    _balance += amount;
+  }
+
+  void withdraw() {
+    print("enter the amount to withraw");
+    double withdraw = double.parse(stdin.readLineSync()!);
+    _balance -= withdraw;
+    if (withdraw > _balance || _balance == 0) {
+      print("insufficient balance");
+    }
+  }
+
+  void getBalance() {
+    print("your current balance= $_balance");
+  }
+}
+
+abstract class shape {
+  calculateArea(int num1, int num2);
+}
+
+class rectangle extends shape {
+  @override
+  int calculateArea(int l, int b) {
+    int rectarea = l * b;
+    return rectarea;
+  }
+}
+
+class circle extends shape {
+  @override
+  dynamic calculateArea(int r, int? num2) {
+    dynamic pie = 3.14;
+
+    dynamic circlearea = pie * r * r;
+    return circlearea;
+  }
+}
